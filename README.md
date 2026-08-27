@@ -33,3 +33,10 @@ Abrir a porta 3000 no painel da azure (entrada)
 node server.js
 ```
 
+### 6. TESTAR O ENDPOINT
+```bash
+http://ip-da-sua-vm:3000/clientes
+```
+
+### Professor. Alessandro Fukuta
+### Fatec Franca
