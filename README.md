@@ -16,3 +16,20 @@ npm init -y
 Para instalar o framework **Express** e adicioná-lo como uma dependência do projeto, utilize o comando:
 ```bash
 npm install express
+```
+
+### 3. Abrir a porta 3000 no Firewall da maquina virtual
+```bash
+sudo ufw allow 3000
+```
+
+### 4. Em Redes da sua maquina virtual:
+```bash
+Abrir a porta 3000 no painel da azure (entrada)
+```
+
+### 5. EXECUTAR A API
+```bash
+node server.js
+```
+
